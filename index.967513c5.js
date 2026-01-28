@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){var e=document.querySelectorAll(".recommended__product, .section-title, .category, .categories__button, .about-us__description, .contact-us__content"),t=new IntersectionObserver(function(e,t){e.forEach(function(e){e.isIntersecting&&(e.target.classList.add("visible"),t.unobserve(e.target))})},{threshold:.1});e.forEach(function(e){return t.observe(e)})});
+//# sourceMappingURL=index.967513c5.js.map
