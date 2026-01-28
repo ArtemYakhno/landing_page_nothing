@@ -1,67 +1,79 @@
-# Landing Page — Nothing
+# 📱 Landing Page — Nothing
 
 Responsive landing page for the Nothing brand focused on pixel-perfect layout, clean BEM structure, and subtle UI animations.
 
-## About the Project
+## 📌 About the Project
 
-This is a single-page website that represents a conceptual landing page for the Nothing brand.
+This is a single-page website that represents a conceptual landing page for the Nothing brand.  
 The project focuses on accurate implementation of the Figma design, responsive behavior across devices, and smooth visual animations.
 
-The page includes:
+### The page includes:
 - product showcases,
 - company information blocks,
-- a Contact Us form,
+- Contact Us form,
 - company contact details,
-- mobile menu.
+- mobile navigation menu.
 
-## Live Demo
+## 🌐 Live Demo
 
-https://artemyakhno.github.io/landing_page_nothing/
+👉 [View site](https://artemyakhno.github.io/landing_page_nothing/)
 
-## Figma Design
+## 🎨 Design
 
-https://www.figma.com/design/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?node-id=6802-462&t=oueFY58pd8l7MzRe-0
+👉 [Figma](https://www.figma.com/design/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?node-id=6802-462&t=oueFY58pd8l7MzRe-0)
 
-## Technology Stack
+## 🚀 Technology Stack
 
-### Core
-- HTML5
-- SCSS
-- JavaScript (ES6)
+### Structure
+- **HTML5** — semantic and accessible markup
 
-### Libraries
+### Styling
+- **SCSS** — modular styles with variables and nesting  
+- **BEM methodology** — predictable and maintainable class structure
 
-- Intersection Observer API (scroll-based animations)
+### Interactivity
+- **JavaScript (ES6)** — UI interactions and logic
+- **Intersection Observer API** — scroll-based animations
 
-## Features
+### Development & Tooling
+- **Parcel** — fast development server and build tool
+- **ESLint** — code quality and consistency
+
+## ✨ Features
 
 - Pixel-perfect layout based on Figma design
-- Fully responsive design for mobile devices
-- CSS-based hover and scale animations
-- Scroll-triggered animations using Intersection Observer
-- Structured and maintainable SCSS with BEM naming
+- Fully responsive design for mobile and desktop
+- Hover and scale animations using CSS
+- Scroll-triggered animations with Intersection Observer
+- Clean SCSS architecture using BEM
 - Optimized development workflow with Parcel
 
-## Development and Deployment
-- Parcel
-- ESLint
+## ⚙️ Installation and Setup
 
-## Getting Started
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/landing_page_nothing.git
+```
+```bash
+cd landing-page-nothing
+```
 
-Clone the repository:
-git clone https://github.com/your-username/project-name.git
-cd project-name
+2. Install dependencies:
 
-Install dependencies:
+```bash
 npm install
+```
 or
+```bash
 yarn install
+```
 
-Run the project locally:
+
+3. Run the project locally:
+```bash
 npm start
+```
 or
+```bash
 yarn start
-
-## Author
-
-Artem Yakhno
+```
